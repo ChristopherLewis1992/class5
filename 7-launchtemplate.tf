@@ -39,6 +39,7 @@ resource "aws_launch_template" "app1_LT" {
     <div>
     <h1>Malgus Clan</h1>
     <h1>Chains Broken in Ireland</h1>
+    <img src="Runfromthewest.gif" alt="GIF of Goku Running" style="display: block; margin: auto; width: 300px;" />
     <p><b>Instance Name:</b> $(hostname -f) </p>
     <p><b>Instance Private Ip Address: </b> $local_ipv4</p>
     <p><b>Availability Zone: </b> $az</p>
